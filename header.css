@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --back:#128580;
+    --white:#ffffff;
+    --yellow:#ffdb17;
+    --grey:#959595;
+    --dblue:#151f28;
+
+    --br:8px;
+
+}
+body{
+    background: var(--back);
+}
+.container{
+    max-width: 1300px;
+    
+    margin: 20px auto;
+}
+.logo{
+    width: 90px;
+
+}
+.nav{
+    padding:5px 20px;
+    border-radius: var(--br);
+    background: var(--white);
+    justify-content: space-between;
+    display: flex;
+}
+.menuClose{
+    display: none;
+    color: var(--back);
+    background: var(--white);
+    width: 35px;
+    height: 35px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.menu{
+    color: var(--back);
+    background: var(--white);
+    width: 35px;
+    height: 35px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+#nav-items{
+    display:none
+}
+.nav-items{
+    background: var(--white);
+    margin-top: 10px;
+    border-radius: var(--br);
+    padding: 10px 20px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  color: var(--back);
+  font-size: 18px;
+  border: 1px solid var(--back);
+  border-radius: var(--br);
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+    
+}
+li:hover{
+    background: var(--yellow);
+    border: none;
+    color: var(--white);
+}
+@media screen and (max-width:450px) {
+    .container{
+        max-width: 370px;
+        
+        margin: 20px auto;
+    }
+    ul{
+        display: block;
+        
+        
+    
+        
+    }
+    li{
+        margin: 10px auto 10px auto;
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width:376px){
+   
+    .container{
+        max-width: 330px;
+        margin: 15px auto 20px auto;
+        
+    }
+}
