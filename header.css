@@ -15,19 +15,21 @@
     --dblue:#151f28;
 
     --br:8px;
-
 }
 body{
     background: var(--back);
 }
 .container{
     max-width: 1300px;
-    
     margin: 20px auto;
 }
+
+
+/*navbar star*/
+
+
 .logo{
     width: 90px;
-
 }
 .nav{
     padding:5px 20px;
@@ -64,14 +66,11 @@ a{
     margin-top: 10px;
     border-radius: var(--br);
     padding: 10px 20px;
-    
 }
 ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-
-    
 }
 a{
     text-decoration: none;
@@ -89,30 +88,175 @@ li{
   cursor: pointer;
   width: 100px;
   text-align: center;
-    
 }
 li:hover{
     background: var(--yellow);
     border: none;
     color: var(--white);
 }
+.menuClose{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+/*navbar end*/
+/*login start*/
+.login{
+    margin-top: 10px;
+    padding-top: 100px;
+    background: var(--white);
+    border-radius: var(--br);
+    padding-bottom: 100px;
+}
+
+.form-div{
+    max-width: 320px;
+    margin: 20px auto 20px auto;
+    border: 1px solid var(--back);
+    border-radius: var(--br);
+    padding: 30px;
+}
+.label{ 
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    color: var(--back);
+    font-size: 20px;
+}
+input{
+    border: 1px solid var(--back);
+    padding: 10px;
+    border-radius: var(--br);
+    width: 300px;
+    margin-top: 10px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    color: var(--back);
+    font-size: 17px;
+}
+.submit{
+    width: 320px;
+    color: var(--white);
+    background: var(--back);
+    border: none;
+}
+.submit:hover{
+    color: var(--dblue);
+    background: var(--yellow);
+}
+.login-title{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    
+    color: var(--back);
+    font-size: 35px;
+    text-align: center;
+    font-style:normal;
+}
+.forgot{
+    margin-top: 20px;
+    color: var(--back);
+    margin-left: 170px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    
+    color: var(--back);
+}
+.forgot:hover{
+    color: var(--dblue);
+}
+.dont{
+    margin-top: 10px;
+    color: var(--back);
+    margin-left: 125px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    
+    color: var(--back);
+}
+.dont:hover{
+    color: var(--dblue);
+}
+.register{
+    margin-top: 10px;
+    padding-top: 40px;
+    background: var(--white);
+    border-radius: var(--br);
+    padding-bottom: 100px;
+}
+
+/*login end*/
 @media screen and (max-width:450px) {
     .container{
         max-width: 370px;
-        
         margin: 20px auto;
     }
+    /*navbar start*/
     ul{
         display: block;
-        
-        
-    
-        
     }
     li{
         margin: 10px auto 10px auto;
         width: 200px;
     }
+    .logo{
+        width: 70px;
+        margin-top: 10px;
+    
+    }
+    .nav{
+        padding:0px 20px;
+    }
+    /*navbar end*/
+
+    
+.login{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.form-div{
+    max-width: 280px;
+}
+.label{ 
+    font-size: 18px;
+}
+input{
+    width: 260px;
+    font-size: 15px;
+}
+.submit{
+    width: 282px;
+}
+.login-title{
+    font-size: 32px;
+}
+
+.forgot{
+    
+    margin-left: 100px;
+}
+.dont{
+    margin-left: 56px;
+}
+.register{
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
     
 }
 
@@ -121,6 +265,16 @@ li:hover{
     .container{
         max-width: 330px;
         margin: 15px auto 20px auto;
-        
     }
+   
+.form-div{
+    max-width: 250px;
+}
+
+input{
+    width: 235px;
+}
+.submit{
+    width: 258px;
+}
 }
