@@ -49,21 +49,26 @@
       <!--navbar end-->
       <!--Login container start-->
 
-        <div class="login">
-          <p class="login-title">Login</p>
+        <div class="register">
+          <p class="login-title">Register</p>
           
           <div class="form-div">
 
             <form>
+                <label class="label" for="name">Name</label><br>
+              <input type="text" id='name' required placeholder="Enter Name"><br><br>
+              
               <label class="label" for="phone">Phone</label><br>
               <input type="tel" id='phone' required placeholder="077 111 2255"><br><br>
               <label class="label"  for="password">Password</label><br>
-              <input type="password" id="password" required placeholder="Enter Password">
-              <br><br>
-              <input type="submit" class="submit" value="Login">
+              <input type="password" id="password" required placeholder="Enter Password"><br><br>
+              <label class="label"  for="confirmPassword">Confirm Password</label><br>
+              <input type="password" id="confirmPassword" required placeholder="Confirm Password">
               
-          <a href="index.html"><p class="forgot">Forgot Password ?</p></a>
-          <a href="register.html"><p class="dont">Don't have an account ?</p></a>
+              <br><br>
+              <input type="submit" class="submit" value="Register">
+              
+          <a href="index.html"><p class="forgot">Have an account ?</p></a>
           
             </form>
             
