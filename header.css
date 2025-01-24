@@ -471,3 +471,111 @@ input{
 /*product*/
 
 }
+
+
+
+@media screen and (max-width:1025px) {
+    .container{
+        max-width: 370px;
+        margin: 20px auto;
+    }
+    /*navbar start*/
+    ul{
+        display: block;
+    }
+    li{
+        margin: 10px auto 10px auto;
+        width: 200px;
+    }
+    .logo{
+        width: 70px;
+        margin-top: 10px;
+    }
+    .nav{
+        padding:0px 20px;
+    }
+    /*navbar end*/
+    /*login start*/
+        
+    .login{
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .form-div{
+        max-width: 280px;
+    }
+    .label{ 
+        font-size: 18px;
+    }
+    input{
+        width: 260px;
+        font-size: 15px;
+    }
+    .submit{
+        width: 282px;
+    }
+    .login-title{
+        font-size: 32px;
+    }
+    .forgot{
+        margin-left: 100px;
+    }
+    .dont{
+        margin-left: 56px;
+    }
+    /*login end*/
+    /*register start*/
+    .register{
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+    /*register end*/
+    /*search start*/
+
+    .search-box{
+        width: 330px;
+    }
+    /*search end*/   
+    
+
+    
+/*product*/
+.product-container{
+    padding: 10px;
+}
+
+
+.product{
+    display: block;
+    width: 305px;
+}
+.products{
+    display: block;
+    justify-content: space-around;
+}
+.product-image{
+    
+    width: 200px;
+    margin-left: 40px;
+}
+.price-div{
+    display: flex;
+    justify-content: space-between;
+}
+.product-details{
+    padding: 10px;
+    font-size: 18px;
+}
+.price{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.discount{
+    margin-top: 5px;
+}
+/*product*/
+
+
+}
+
