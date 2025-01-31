@@ -322,7 +322,100 @@ input{
     background: var(--back);
     color: var(--white);
 }
-/*product*/
+/*product end*/
+/*footer start*/
+.footerContainer{
+    background: var(--white);
+    margin-top: 10px;
+    border-radius: var(--br);
+    padding: 10px;
+}
+.footer{
+    
+    display: flex;
+   
+}
+.footerLogo{
+    width: 300px;
+    margin-left: 45px;
+}
+.col1{
+    padding: 20px;
+    width: 400px;
+}
+.meezan{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    color: var(--dblue);
+    line-height: 23px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.footerSocial{
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: var(--white);
+    background: var(--back);
+    padding: 6px;
+    border-radius: 50px;
+}
+.socials{
+    text-align: center;
+}
+.col2{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    padding: 20px;
+    margin-top: 40px;
+    
+}
+.footerLink{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    color: var(--dblue);
+    line-height: 23px;
+    margin-top: 15px;
+    font-size: 17px;
+    color:var(--dblue)
+}
+.footerLink:hover{
+    color: var(--back);
+}
+.col3{
+    width: 400px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.accepted{ 
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    color: var(--dblue);
+}
+.paymentlogo{
+    width: 50px;
+}
+.paymentImages{
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.copyright{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    color: rgb(106, 106, 106);
+    margin: 10px 30px 10px 30px;
+    border: 1px solid var(--back);
+    padding: 15px;
+}
+
+/*footer end*/
 
 
 @media screen and (max-width:450px) {
@@ -427,6 +520,49 @@ input{
 }
 /*product*/
 
+/*footer start*/
+
+.footer{
+    display: block;
+}
+.footerLogo{
+    width: 200px;
+    margin-left: 52px;
+}
+.col1{
+    width: 310px;
+}
+.meezan{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.footerSocial{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.col2{
+    width: 310px;
+    padding: 20px;
+    margin-top: -20px;
+    
+}
+.footerLink{
+    line-height: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.col3{
+    width: 310px;
+}
+.paymentlogo{
+    width: 55px;
+}
+
+/*footer end*/
+
 
 }
 
@@ -470,112 +606,53 @@ input{
 }
 /*product*/
 
-}
 
+/*footer start*/
 
-
-@media screen and (max-width:1025px) {
-    .container{
-        max-width: 370px;
-        margin: 20px auto;
-    }
-    /*navbar start*/
-    ul{
-        display: block;
-    }
-    li{
-        margin: 10px auto 10px auto;
-        width: 200px;
-    }
-    .logo{
-        width: 70px;
-        margin-top: 10px;
-    }
-    .nav{
-        padding:0px 20px;
-    }
-    /*navbar end*/
-    /*login start*/
-        
-    .login{
-        padding-top: 60px;
-        padding-bottom: 100px;
-    }
-
-    .form-div{
-        max-width: 280px;
-    }
-    .label{ 
-        font-size: 18px;
-    }
-    input{
-        width: 260px;
-        font-size: 15px;
-    }
-    .submit{
-        width: 282px;
-    }
-    .login-title{
-        font-size: 32px;
-    }
-    .forgot{
-        margin-left: 100px;
-    }
-    .dont{
-        margin-left: 56px;
-    }
-    /*login end*/
-    /*register start*/
-    .register{
-        margin-top: 10px;
-        padding-top: 30px;
-    }
-    /*register end*/
-    /*search start*/
-
-    .search-box{
-        width: 330px;
-    }
-    /*search end*/   
-    
-
-    
-/*product*/
-.product-container{
-    padding: 10px;
-}
-
-
-.product{
+.footer{
     display: block;
-    width: 305px;
 }
-.products{
-    display: block;
-    justify-content: space-around;
-}
-.product-image{
-    
+.footerLogo{
     width: 200px;
     margin-left: 40px;
 }
-.price-div{
-    display: flex;
-    justify-content: space-between;
+.col1{
+    width: 270px;
 }
-.product-details{
-    padding: 10px;
-    font-size: 18px;
+.meezan{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
 }
-.price{
-    font-size: 18px;
-    margin-top: 5px;
+.footerSocial{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
 }
-.discount{
-    margin-top: 5px;
+
+.col2{
+    width: 270px;
+    padding: 20px;
+    margin-top: -20px;
+    
 }
-/*product*/
+.footerLink{
+    line-height: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.col3{
+    width: 270px;
+}
+.paymentlogo{
+    width: 40px;
+}
+
+/*footer end*/
 
 
 }
+
+
+
 
